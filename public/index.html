@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FRI: Client</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { 
+            font-family: 'Arial', sans-serif; 
+            max-width: 600px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background-color: #121212; 
+            color: #ffffff;
+        }
+
+        #Progress {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .LogEntry {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .LogInfo { background-color: #1a2b3c; color: #4a90e2; }
+        .LogSuccess { background-color: #1a3c1a; color: #2ecc71; }
+        .LogError { background-color: #3c1a1a; color: #e74c3c; }
+
+        #ProgressBar {
+            height: 10px;
+            background-color: #4a90e2;
+            margin-top: 10px;
+            transition: width 0.5s ease;
+            border-radius: 5px;
+        }
+        #Container {
+            width: 100%;
+            background-color: #2d2d2d;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="Progress">
+        <h2 id="VersionTitle">Installing Roblox</h2>
+        <div id="Logs"></div>
+
+        <div id="Container">
+            <div id="ProgressBar" style="width: 0%"></div>
+        </div>
+    </div>
+    <script src="installer.js"></script>
+</body>
+</html>
