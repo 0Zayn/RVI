@@ -33,7 +33,7 @@ The basic usage for using RVI is:
 
 Bonus: /ManifestData/<version_number>
 
-# Example:
+### Example:
 /install?Version=version-841d53a442d54acd
 
 ## Contributing
