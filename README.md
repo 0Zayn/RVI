@@ -29,7 +29,9 @@ https://roblox.get-fusion.com/
 
 The basic usage for using RVI is:
 
-/install?Version=<version_number>
+/install/Version=<version_number>
+
+Bonus: /ManifestData/<version_number>
 
 Example:
 /install?Version=version-841d53a442d54acd
