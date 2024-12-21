@@ -9,7 +9,7 @@ This tool is particularly useful for developers.
 
 ## Official Website
 
-The official installation website can be found at:
+An official build can be found at:
 https://roblox.get-fusion.com/
 
 ## Features
