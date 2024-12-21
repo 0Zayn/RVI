@@ -69,6 +69,7 @@ class Installer {
 
             const Data = await Response.arrayBuffer();
             const Zip = await JSZip.loadAsync(Data);
+            
             const DestFolder = FileDestination[File];
 
             const Promises = Object.entries(Zip.files).filter(([, Entry]) => !Entry.dir).map(async ([Path, Entry]) => {
@@ -80,6 +81,7 @@ class Installer {
 
             this.CompletedFiles++;
             this.UpdateProgress();
+            
             this.UpdateLog(`Successfully processed: ${File}`, 'Success');
         } catch (Error) {
             this.UpdateLog(`Error processing: ${File} - ${Error.message}`, 'Error');
