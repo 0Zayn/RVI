@@ -45,5 +45,3 @@ If you encounter any issues or have questions, please create an issue in the rep
 ## Disclaimer
 
 This tool is not officially affiliated with or endorsed by Roblox Corporation, and is fully written by 0Zayn (zayn100 on Discord).
-
-The official site where this is running on can be found here: https://roblox.get-fusion.com/
